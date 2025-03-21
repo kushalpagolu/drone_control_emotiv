@@ -97,7 +97,7 @@ Follow these steps to train the RL agent and control the Tello drone:
 ### **3. Run `visualizer_epoch.py`:**
 ```bash
 python visualizer_epoch.py
-
+```
 - The script will start streaming data from the Emotiv headset and visualizing it in real-time.
 
 
@@ -119,7 +119,7 @@ def step(self, action):
 
     return self.current_state, reward, done, info
 
-
+```
 
 ### ** 6. Save the Trained Model: **
 
