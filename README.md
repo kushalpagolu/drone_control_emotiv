@@ -15,6 +15,8 @@ Here's a breakdown of each code file and its role in the project:
 ### `emotiv_streamer_rl.py`
 **Purpose:** This file connects to the Emotiv EPOC+ headset, reads EEG and gyroscope data packets, decrypts the data, performs preprocessing (band power calculation and PCA), and streams the processed data to the RL agent.
 
+
+
 **Key Components:**
 - `EmotivStreamer` class: Handles device connection, data reading, decryption, preprocessing, and streaming.
 - `connect()`: Establishes a connection with the Emotiv headset.
@@ -46,6 +48,9 @@ Here's a breakdown of each code file and its role in the project:
 
 ### `realtime_visualizer_2D.py`
 **Purpose:** Defines the real-time EEG visualizer that displays EEG signals and gyroscope data.
+
+![Figure_1](https://github.com/user-attachments/assets/a28eb3d3-1e4c-4d65-bc22-a56da1793789)
+
 
 **Key Components:**
 - `RealtimeEEGVisualizer` class: Creates and updates the real-time EEG plots.
